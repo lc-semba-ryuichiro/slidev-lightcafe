@@ -1,0 +1,68 @@
+{
+  "author": "lc-semba-ryuichiro",
+  "bugs": {
+    "url": "https://github.com/lc-semba-ryuichiro/slidev-lightcafe/issues"
+  },
+  "dependencies": {
+    "@slidev/cli": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "@slidev/theme-seriph": "catalog:",
+    "vue": "catalog:"
+  },
+  "description": "Slidev slide template for LightCafe",
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "@commitlint/cli": "catalog:",
+    "@commitlint/config-conventional": "catalog:",
+    "@secretlint/secretlint-rule-preset-recommend": "catalog:",
+    "@textlint-ja/textlint-rule-preset-ai-writing": "catalog:",
+    "@textlint/textlint-plugin-markdown": "catalog:",
+    "browserslist": "catalog:",
+    "lefthook": "catalog:",
+    "remark": "catalog:",
+    "remark-cli": "catalog:",
+    "remark-frontmatter": "catalog:",
+    "remark-gfm": "catalog:",
+    "remark-lint": "catalog:",
+    "remark-preset-lint-consistent": "catalog:",
+    "remark-preset-lint-recommended": "catalog:",
+    "remark-toc": "catalog:",
+    "secretlint": "catalog:",
+    "stylelint": "catalog:",
+    "textlint": "catalog:",
+    "textlint-filter-rule-allowlist": "catalog:",
+    "textlint-filter-rule-comments": "catalog:",
+    "textlint-plugin-html": "catalog:",
+    "textlint-rule-preset-ja-technical-writing": "catalog:",
+    "textlint-rule-prh": "catalog:"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "homepage": "https://github.com/lc-semba-ryuichiro/slidev-lightcafe#readme",
+  "license": "UNLICENSED",
+  "name": "@lc-semba-ryuichiro/slidev-lightcafe",
+  "packageManager": "pnpm@10.30.0+sha512.2b5753de015d480eeb88f5b5b61e0051f05b4301808a82ec8b840c9d2adf7748eb352c83f5c1593ca703ff1017295bc3fdd3119abb9686efc96b9fcb18200937",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lc-semba-ryuichiro/slidev-lightcafe.git"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "fix:remark": "remark . --output",
+    "fix:stylelint": "stylelint \"**/*.css\" --fix",
+    "fix:textlint": "textlint --fix \"**/*.{md,mdx}\"",
+    "lint:browserslist": "browserslist",
+    "lint:remark": "remark . --quiet",
+    "lint:secretlint": "secretlint \"**/*\"",
+    "lint:stylelint": "stylelint \"**/*.css\"",
+    "lint:textlint": "textlint \"**/*.{md,mdx}\"",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "lefthook install"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
